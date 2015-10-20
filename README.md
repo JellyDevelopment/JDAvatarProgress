@@ -4,6 +4,8 @@
 [![License](https://img.shields.io/cocoapods/l/JDAvatarProgress.svg?style=flat)](http://cocoapods.org/pods/JDAvatarProgress)
 [![Platform](https://img.shields.io/cocoapods/p/JDAvatarProgress.svg?style=flat)](http://cocoapods.org/pods/JDAvatarProgress)
 
+<img src="JDAvatarProgressDemo.gif" width=320>
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -31,6 +33,31 @@ Drag and drop `JDAvatarProgress.h` and `JDAvatarProgress.h` files into your proj
 
 ### Requirements
 `QuartzCore.framework`
+
+## Sample Usage
+
+```objective-c
+
+[self.avatarImgView setImageWithURL:[NSURL URLWithString:@"http://3.bp.blogspot.com/-k-0O0FocJ2I/TyWbextRGlI/AAAAAAAACqo/GuPx0RH7PcY/s1600/Fondo+Pantalla.jpg"];
+```
+
+## Advanced Usage
+
+```objective-c
+
+[self.avatarImgView setImageWithURL:[NSURL URLWithString:@"http://3.bp.blogspot.com/-k-0O0FocJ2I/TyWbextRGlI/AAAAAAAACqo/GuPx0RH7PcY/s1600/Fondo+Pantalla.jpg"]
+                        placeholder:nil
+                      progressColor:[UIColor orangeColor]
+                progressBarLineWidh:JDAvatarDefaultProgressBarLineWidth
+                        borderWidth:JDAvatarDefaultBorderWidth
+                        borderColor:nil
+                         completion:^(UIImage * resultImage, NSError * error){
+                             
+                             NSLog(@"image => %@", resultImage);
+                             NSLog(@"error => %@", error);
+                             
+                         }];
+```
 
 ## Author
 
