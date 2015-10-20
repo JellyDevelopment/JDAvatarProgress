@@ -1,16 +1,16 @@
 {
   "name": "JDAvatarProgress",
-  "version": "1.0.2",
-  "summary": "Easy customizable avatar image asynchronously with progress bar animated",
-  "description": "",
-  "homepage": "https://github.com/JellyDevelopment/JDAvatarProgress",
+  "version": "1.0.4",
+  "summary": "Easy customizable round avatar, a derived UIImageView class, load asynchronously the image with optional border and progress bar animated.",
+  "description": "Easy customizable round avatar, a derived UIImageView class, load asynchronously the image with optional border and progress bar animated. Perfect to use in the profile section in your apps.",
+  "homepage": "https://github.com/JellyDevelopment/JDAvatarProgress.git",
   "license": "MIT",
   "authors": {
     "Juanpe": "juanpecm@gmail.com"
   },
   "source": {
-    "git": "https://github.com/JellyDevelopment/JDAvatarProgress",
-    "tag": "1.0.2"
+    "git": "https://github.com/JellyDevelopment/JDAvatarProgress.git",
+    "tag": "1.0.4"
   },
   "social_media_url": "https://twitter.com/JuanpeCMiOS",
   "platforms": {
