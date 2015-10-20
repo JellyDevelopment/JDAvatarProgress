@@ -6,6 +6,12 @@
 
 <img src="JDAvatarProgressDemo.gif" width=320>
 
+## Swift
+
+JDAvatarProgress is available in Swift also
+
+[JDSwiftAvatarProgress](https://github.com/JellyDevelopment/JDSwiftAvatarProgress)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -61,7 +67,8 @@ Drag and drop `JDAvatarProgress.h` and `JDAvatarProgress.h` files into your proj
 
 ## Author
 
-Juanpe, juanpecm@gmail.com
+Juanpe Catalán, juanpecm@gmail.com
+David Carrascal, davidlcarrascal@gmail.com
 
 ## License
 
