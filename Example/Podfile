@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'JDAvatarProgress_Example', :exclusive => true do
+  pod "JDAvatarProgress", :path => "../"
+end
+
+target 'JDAvatarProgress_Tests', :exclusive => true do
+  pod "JDAvatarProgress", :path => "../"
+
+  
+end
