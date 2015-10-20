@@ -1,0 +1,14 @@
+PODS:
+  - JDAvatarProgress (1.0.2)
+
+DEPENDENCIES:
+  - JDAvatarProgress (from `../`)
+
+EXTERNAL SOURCES:
+  JDAvatarProgress:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JDAvatarProgress: 22aef9dc53cb180659faeb0638895f6c7bb9673d
+
+COCOAPODS: 0.39.0

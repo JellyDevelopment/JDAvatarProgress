@@ -1,0 +1,6 @@
+framework module JDAvatarProgress {
+  umbrella header "JDAvatarProgress-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_JDAvatarProgress_Tests {
+  umbrella header "Pods-JDAvatarProgress_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

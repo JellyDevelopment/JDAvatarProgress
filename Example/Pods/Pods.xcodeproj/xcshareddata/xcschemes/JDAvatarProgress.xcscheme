@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "JDAvatarProgress_Example.app"
-               BlueprintName = "JDAvatarProgress_Example"
-               ReferencedContainer = "container:JDAvatarProgress.xcodeproj">
+               BlueprintIdentifier = "B74FE83602F8C39DA6273E35A3CFDF55"
+               BuildableName = "JDAvatarProgress.framework"
+               BlueprintName = "JDAvatarProgress"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "JDAvatarProgress_Tests.xctest"
-               BlueprintName = "JDAvatarProgress_Tests"
-               ReferencedContainer = "container:JDAvatarProgress.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "JDAvatarProgress_Example.app"
-            BlueprintName = "JDAvatarProgress_Example"
-            ReferencedContainer = "container:JDAvatarProgress.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -61,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "JDAvatarProgress_Example.app"
-            BlueprintName = "JDAvatarProgress_Example"
-            ReferencedContainer = "container:JDAvatarProgress.xcodeproj">
+            BlueprintIdentifier = "B74FE83602F8C39DA6273E35A3CFDF55"
+            BuildableName = "JDAvatarProgress.framework"
+            BlueprintName = "JDAvatarProgress"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "JDAvatarProgress_Example.app"
-            BlueprintName = "JDAvatarProgress_Example"
-            ReferencedContainer = "container:JDAvatarProgress.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

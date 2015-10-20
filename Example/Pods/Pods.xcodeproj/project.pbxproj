@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C0B2C4779F64F03151D8BB090ADCBA2 /* Pods-JDAvatarProgress_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ADC1C8212D3D3DE7A69454CC0BB445 /* Pods-JDAvatarProgress_Example-dummy.m */; };
+		33B6AC0404A506254355093FC66F2402 /* JDAvatarProgress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CCD22FBB8C5AB6151C70055D398162 /* JDAvatarProgress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BAEAF1A45C00D18A301F3347D204977 /* Pods-JDAvatarProgress_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A294805BB5C50EF637143BE9CF557BEB /* Pods-JDAvatarProgress_Tests-dummy.m */; };
+		3F4AC09F66CEB8C38EA0831D88E09561 /* Pods-JDAvatarProgress_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 666C1346BEFE4D77A3388D81EEE0EB5A /* Pods-JDAvatarProgress_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A4C95A75B2672275FCC0DFB1D8992F9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */; };
+		57A39FF27C02B70EEE064B9993761EF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		6723868802291786BFC7638966445552 /* Pods-JDAvatarProgress_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A721D2D6C010DDFB44AF01CFDC84E8C /* Pods-JDAvatarProgress_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71E7B5A4ABFE1236ECE437FAE9DFD004 /* JDAvatarProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = AFB7C9CCA7B8DB11B5C6DBA5A50BA72B /* JDAvatarProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D30CFF7A2A6CFB16F6E603887E048CEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		E78A7021A820C40A2C3A9F58CB4C295F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		EA9434DC8B98A5B25BD9243F09CE56D2 /* JDAvatarProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11920D544AC1B02388A1DF0DD926A5 /* JDAvatarProgress.m */; };
+		FFF286AFD3A80E66AC3FB61577574ADA /* JDAvatarProgress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F91065916BFB7BDA072CE409E34A83B1 /* JDAvatarProgress-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		197B8A89FCCD0D03F1192D9C7921CA1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B74FE83602F8C39DA6273E35A3CFDF55;
+			remoteInfo = JDAvatarProgress;
+		};
+		F151EDE0A5484A64054FD46AE98E6657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B74FE83602F8C39DA6273E35A3CFDF55;
+			remoteInfo = JDAvatarProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CCD22FBB8C5AB6151C70055D398162 /* JDAvatarProgress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDAvatarProgress-umbrella.h"; sourceTree = "<group>"; };
+		08B547CFFA61863CC839586542E1A364 /* Pods-JDAvatarProgress_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDAvatarProgress_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0B027BE67248ABE392D22D527E83AC7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EB62009444291857EB3E0DA97703CC5 /* Pods-JDAvatarProgress_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDAvatarProgress_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2539E4913CC6F9F8DD29523AE10E89D8 /* Pods-JDAvatarProgress_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDAvatarProgress_Example-frameworks.sh"; sourceTree = "<group>"; };
+		258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		26B107CD2F9B9268910850FCE2E9BF68 /* Pods-JDAvatarProgress_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDAvatarProgress_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2D50857514D375041B08C8D3F02AAE23 /* Pods-JDAvatarProgress_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JDAvatarProgress_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B11920D544AC1B02388A1DF0DD926A5 /* JDAvatarProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JDAvatarProgress.m; sourceTree = "<group>"; };
+		3F92A6B14D9DC3E27FD5E92352924930 /* JDAvatarProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JDAvatarProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A721D2D6C010DDFB44AF01CFDC84E8C /* Pods-JDAvatarProgress_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JDAvatarProgress_Example-umbrella.h"; sourceTree = "<group>"; };
+		666C1346BEFE4D77A3388D81EEE0EB5A /* Pods-JDAvatarProgress_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JDAvatarProgress_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6E9D966BC032F8E9F8E5E73A0777DACD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F0F34EB80B138A1C4CDBD511A5213E2 /* Pods-JDAvatarProgress_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JDAvatarProgress_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7D1266E02D0C5432D3A113B41E0F8D7E /* JDAvatarProgress.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDAvatarProgress.xcconfig; sourceTree = "<group>"; };
+		7F4B986EFC2E03D5AA2E551FEA03C0BB /* Pods_JDAvatarProgress_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDAvatarProgress_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FF04589CFE09FFE24E4116D1EFE384 /* JDAvatarProgress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JDAvatarProgress.modulemap; sourceTree = "<group>"; };
+		8C987EFF9134653EE5F2D8A735C5DAB9 /* Pods-JDAvatarProgress_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JDAvatarProgress_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		920CE6DBF5A24054F357D4CA45CA8145 /* Pods-JDAvatarProgress_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JDAvatarProgress_Example.modulemap"; sourceTree = "<group>"; };
+		9FADEF63A8650AC4EC9B05B141C1265A /* Pods-JDAvatarProgress_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JDAvatarProgress_Tests.modulemap"; sourceTree = "<group>"; };
+		A294805BB5C50EF637143BE9CF557BEB /* Pods-JDAvatarProgress_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDAvatarProgress_Tests-dummy.m"; sourceTree = "<group>"; };
+		ADC918C8CD0141A86E7D4BC286629377 /* Pods-JDAvatarProgress_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDAvatarProgress_Example-resources.sh"; sourceTree = "<group>"; };
+		AEADBFDD8D81CD9E48DA04FC19D6AD4B /* Pods-JDAvatarProgress_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDAvatarProgress_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AFB7C9CCA7B8DB11B5C6DBA5A50BA72B /* JDAvatarProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDAvatarProgress.h; sourceTree = "<group>"; };
+		B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0ADC1C8212D3D3DE7A69454CC0BB445 /* Pods-JDAvatarProgress_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDAvatarProgress_Example-dummy.m"; sourceTree = "<group>"; };
+		CDC80214B15430C6EE7A3E3612F005FD /* JDAvatarProgress-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDAvatarProgress-prefix.pch"; sourceTree = "<group>"; };
+		CFD6EA81A61F945F9A1C364F87952DD2 /* Pods-JDAvatarProgress_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JDAvatarProgress_Tests-resources.sh"; sourceTree = "<group>"; };
+		D47207EFED41498288F49DB6CF9DD903 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3A5D74CE771500DCF948CE697B6D1B /* Pods_JDAvatarProgress_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDAvatarProgress_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8EEA2985F58F1CE28322327959BC852 /* Pods-JDAvatarProgress_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDAvatarProgress_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F91065916BFB7BDA072CE409E34A83B1 /* JDAvatarProgress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JDAvatarProgress-dummy.m"; sourceTree = "<group>"; };
+		F934E8BEF451E351423341D071F58DDD /* Pods-JDAvatarProgress_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDAvatarProgress_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09A61D146202B81C29992B22251713D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30CFF7A2A6CFB16F6E603887E048CEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4BEF62EA73E8B1A06AFD756CB647F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E78A7021A820C40A2C3A9F58CB4C295F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD13889A78BD2ADDE9F3EF68ABDF86B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A39FF27C02B70EEE064B9993761EF3 /* Foundation.framework in Frameworks */,
+				4A4C95A75B2672275FCC0DFB1D8992F9 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1070259E26A4DD913503CC1EDC541EA6 /* Pods-JDAvatarProgress_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D47207EFED41498288F49DB6CF9DD903 /* Info.plist */,
+				9FADEF63A8650AC4EC9B05B141C1265A /* Pods-JDAvatarProgress_Tests.modulemap */,
+				6F0F34EB80B138A1C4CDBD511A5213E2 /* Pods-JDAvatarProgress_Tests-acknowledgements.markdown */,
+				0EB62009444291857EB3E0DA97703CC5 /* Pods-JDAvatarProgress_Tests-acknowledgements.plist */,
+				A294805BB5C50EF637143BE9CF557BEB /* Pods-JDAvatarProgress_Tests-dummy.m */,
+				AEADBFDD8D81CD9E48DA04FC19D6AD4B /* Pods-JDAvatarProgress_Tests-frameworks.sh */,
+				CFD6EA81A61F945F9A1C364F87952DD2 /* Pods-JDAvatarProgress_Tests-resources.sh */,
+				666C1346BEFE4D77A3388D81EEE0EB5A /* Pods-JDAvatarProgress_Tests-umbrella.h */,
+				F8EEA2985F58F1CE28322327959BC852 /* Pods-JDAvatarProgress_Tests.debug.xcconfig */,
+				08B547CFFA61863CC839586542E1A364 /* Pods-JDAvatarProgress_Tests.release.xcconfig */,
+			);
+			name = "Pods-JDAvatarProgress_Tests";
+			path = "Target Support Files/Pods-JDAvatarProgress_Tests";
+			sourceTree = "<group>";
+		};
+		36AE4666FD626FFE44CC30677BCFF239 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B027BE67248ABE392D22D527E83AC7E /* Info.plist */,
+				82FF04589CFE09FFE24E4116D1EFE384 /* JDAvatarProgress.modulemap */,
+				7D1266E02D0C5432D3A113B41E0F8D7E /* JDAvatarProgress.xcconfig */,
+				F91065916BFB7BDA072CE409E34A83B1 /* JDAvatarProgress-dummy.m */,
+				CDC80214B15430C6EE7A3E3612F005FD /* JDAvatarProgress-prefix.pch */,
+				04CCD22FBB8C5AB6151C70055D398162 /* JDAvatarProgress-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JDAvatarProgress";
+			sourceTree = "<group>";
+		};
+		3926C638AD0708942C88C2BC89261735 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */,
+				B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3926C638AD0708942C88C2BC89261735 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52ADA43A1C5D139BDB6387E1CAA60B64 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7EC45F627B4587C6FE54057D9BC9C517 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		5B7368844F14720DC65752E530B3E990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F92A6B14D9DC3E27FD5E92352924930 /* JDAvatarProgress.framework */,
+				ED3A5D74CE771500DCF948CE697B6D1B /* Pods_JDAvatarProgress_Example.framework */,
+				7F4B986EFC2E03D5AA2E551FEA03C0BB /* Pods_JDAvatarProgress_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EC285CA8309AF101ED08240DB744BBD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F147936051C3744BDF481BA28662026C /* JDAvatarProgress */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				6EC285CA8309AF101ED08240DB744BBD /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				5B7368844F14720DC65752E530B3E990 /* Products */,
+				E5A49BA4B926814F39BD5AEB1670F7FA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EC45F627B4587C6FE54057D9BC9C517 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AFB7C9CCA7B8DB11B5C6DBA5A50BA72B /* JDAvatarProgress.h */,
+				3B11920D544AC1B02388A1DF0DD926A5 /* JDAvatarProgress.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		831C7D3A3105FC2DFD54FC1170F5EEF3 /* Pods-JDAvatarProgress_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6E9D966BC032F8E9F8E5E73A0777DACD /* Info.plist */,
+				920CE6DBF5A24054F357D4CA45CA8145 /* Pods-JDAvatarProgress_Example.modulemap */,
+				8C987EFF9134653EE5F2D8A735C5DAB9 /* Pods-JDAvatarProgress_Example-acknowledgements.markdown */,
+				2D50857514D375041B08C8D3F02AAE23 /* Pods-JDAvatarProgress_Example-acknowledgements.plist */,
+				C0ADC1C8212D3D3DE7A69454CC0BB445 /* Pods-JDAvatarProgress_Example-dummy.m */,
+				2539E4913CC6F9F8DD29523AE10E89D8 /* Pods-JDAvatarProgress_Example-frameworks.sh */,
+				ADC918C8CD0141A86E7D4BC286629377 /* Pods-JDAvatarProgress_Example-resources.sh */,
+				4A721D2D6C010DDFB44AF01CFDC84E8C /* Pods-JDAvatarProgress_Example-umbrella.h */,
+				F934E8BEF451E351423341D071F58DDD /* Pods-JDAvatarProgress_Example.debug.xcconfig */,
+				26B107CD2F9B9268910850FCE2E9BF68 /* Pods-JDAvatarProgress_Example.release.xcconfig */,
+			);
+			name = "Pods-JDAvatarProgress_Example";
+			path = "Target Support Files/Pods-JDAvatarProgress_Example";
+			sourceTree = "<group>";
+		};
+		E5A49BA4B926814F39BD5AEB1670F7FA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				831C7D3A3105FC2DFD54FC1170F5EEF3 /* Pods-JDAvatarProgress_Example */,
+				1070259E26A4DD913503CC1EDC541EA6 /* Pods-JDAvatarProgress_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F147936051C3744BDF481BA28662026C /* JDAvatarProgress */ = {
+			isa = PBXGroup;
+			children = (
+				52ADA43A1C5D139BDB6387E1CAA60B64 /* Pod */,
+				36AE4666FD626FFE44CC30677BCFF239 /* Support Files */,
+			);
+			name = JDAvatarProgress;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C4D0F486C2CBE5FA780816481B72D8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6723868802291786BFC7638966445552 /* Pods-JDAvatarProgress_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B85EC31D78BE7DC00C07AC746FA304E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4AC09F66CEB8C38EA0831D88E09561 /* Pods-JDAvatarProgress_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0C4677C9057E1FD32A5D916ED926F00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B6AC0404A506254355093FC66F2402 /* JDAvatarProgress-umbrella.h in Headers */,
+				71E7B5A4ABFE1236ECE437FAE9DFD004 /* JDAvatarProgress.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		248E36D73ABCF5B0E8ED4302B07F16B2 /* Pods-JDAvatarProgress_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D62CFFA8262627CDCD4BB2C3D7E47A9A /* Build configuration list for PBXNativeTarget "Pods-JDAvatarProgress_Example" */;
+			buildPhases = (
+				5318EC305DD1070CBE15FB07595542E8 /* Sources */,
+				BD4BEF62EA73E8B1A06AFD756CB647F9 /* Frameworks */,
+				3C4D0F486C2CBE5FA780816481B72D8F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2381F0B2013EC9707C1CAAF81083F91D /* PBXTargetDependency */,
+			);
+			name = "Pods-JDAvatarProgress_Example";
+			productName = "Pods-JDAvatarProgress_Example";
+			productReference = ED3A5D74CE771500DCF948CE697B6D1B /* Pods_JDAvatarProgress_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		59AE2C47694DC7D17BF5F6C74C637D0E /* Pods-JDAvatarProgress_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A28C738D3C6A73F703F575BC9F7E66B /* Build configuration list for PBXNativeTarget "Pods-JDAvatarProgress_Tests" */;
+			buildPhases = (
+				FC779C310E9C10F7117D43EC6B3176DB /* Sources */,
+				09A61D146202B81C29992B22251713D0 /* Frameworks */,
+				4B85EC31D78BE7DC00C07AC746FA304E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21D6D983C8490330216FE877B438F96F /* PBXTargetDependency */,
+			);
+			name = "Pods-JDAvatarProgress_Tests";
+			productName = "Pods-JDAvatarProgress_Tests";
+			productReference = 7F4B986EFC2E03D5AA2E551FEA03C0BB /* Pods_JDAvatarProgress_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B74FE83602F8C39DA6273E35A3CFDF55 /* JDAvatarProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC966549B6E2A3B155D655070BE29AB0 /* Build configuration list for PBXNativeTarget "JDAvatarProgress" */;
+			buildPhases = (
+				AF666E2F4EE8AE991360E85E2B498BD1 /* Sources */,
+				DCD13889A78BD2ADDE9F3EF68ABDF86B /* Frameworks */,
+				E0C4677C9057E1FD32A5D916ED926F00 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDAvatarProgress;
+			productName = JDAvatarProgress;
+			productReference = 3F92A6B14D9DC3E27FD5E92352924930 /* JDAvatarProgress.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5B7368844F14720DC65752E530B3E990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B74FE83602F8C39DA6273E35A3CFDF55 /* JDAvatarProgress */,
+				248E36D73ABCF5B0E8ED4302B07F16B2 /* Pods-JDAvatarProgress_Example */,
+				59AE2C47694DC7D17BF5F6C74C637D0E /* Pods-JDAvatarProgress_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5318EC305DD1070CBE15FB07595542E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C0B2C4779F64F03151D8BB090ADCBA2 /* Pods-JDAvatarProgress_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF666E2F4EE8AE991360E85E2B498BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF286AFD3A80E66AC3FB61577574ADA /* JDAvatarProgress-dummy.m in Sources */,
+				EA9434DC8B98A5B25BD9243F09CE56D2 /* JDAvatarProgress.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC779C310E9C10F7117D43EC6B3176DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAEAF1A45C00D18A301F3347D204977 /* Pods-JDAvatarProgress_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21D6D983C8490330216FE877B438F96F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JDAvatarProgress;
+			target = B74FE83602F8C39DA6273E35A3CFDF55 /* JDAvatarProgress */;
+			targetProxy = 197B8A89FCCD0D03F1192D9C7921CA1F /* PBXContainerItemProxy */;
+		};
+		2381F0B2013EC9707C1CAAF81083F91D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JDAvatarProgress;
+			target = B74FE83602F8C39DA6273E35A3CFDF55 /* JDAvatarProgress */;
+			targetProxy = F151EDE0A5484A64054FD46AE98E6657 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		41150C48D44C8D6798D88742261A5DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8EEA2985F58F1CE28322327959BC852 /* Pods-JDAvatarProgress_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JDAvatarProgress_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JDAvatarProgress_Tests/Pods-JDAvatarProgress_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JDAvatarProgress_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5BE1438B323890C7E9A70609E1722875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1266E02D0C5432D3A113B41E0F8D7E /* JDAvatarProgress.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JDAvatarProgress/JDAvatarProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JDAvatarProgress/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JDAvatarProgress/JDAvatarProgress.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JDAvatarProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73BD3C178C1D3A067CB4E8CF2ED20B35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B547CFFA61863CC839586542E1A364 /* Pods-JDAvatarProgress_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JDAvatarProgress_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JDAvatarProgress_Tests/Pods-JDAvatarProgress_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JDAvatarProgress_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		750D84F3586CA613A6C0743E880D9EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B107CD2F9B9268910850FCE2E9BF68 /* Pods-JDAvatarProgress_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JDAvatarProgress_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JDAvatarProgress_Example/Pods-JDAvatarProgress_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JDAvatarProgress_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98F310A17462CFD2A7648B1E406EEC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F934E8BEF451E351423341D071F58DDD /* Pods-JDAvatarProgress_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JDAvatarProgress_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JDAvatarProgress_Example/Pods-JDAvatarProgress_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JDAvatarProgress_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B548E884A288B76C2210DA8A7C47E3CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1266E02D0C5432D3A113B41E0F8D7E /* JDAvatarProgress.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JDAvatarProgress/JDAvatarProgress-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JDAvatarProgress/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JDAvatarProgress/JDAvatarProgress.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JDAvatarProgress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A28C738D3C6A73F703F575BC9F7E66B /* Build configuration list for PBXNativeTarget "Pods-JDAvatarProgress_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41150C48D44C8D6798D88742261A5DEB /* Debug */,
+				73BD3C178C1D3A067CB4E8CF2ED20B35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC966549B6E2A3B155D655070BE29AB0 /* Build configuration list for PBXNativeTarget "JDAvatarProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE1438B323890C7E9A70609E1722875 /* Debug */,
+				B548E884A288B76C2210DA8A7C47E3CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D62CFFA8262627CDCD4BB2C3D7E47A9A /* Build configuration list for PBXNativeTarget "Pods-JDAvatarProgress_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F310A17462CFD2A7648B1E406EEC1F /* Debug */,
+				750D84F3586CA613A6C0743E880D9EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
