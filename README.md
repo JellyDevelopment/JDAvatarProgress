@@ -68,8 +68,8 @@ Drag and drop `JDAvatarProgress.h` and `JDAvatarProgress.h` files into your proj
 ## Author
 
 * [Jelly Development](https://github.com/JellyDevelopment)
-	*Juanpe Catalán, juanpecm@gmail.com
-	*David Carrascal, davidlcarrascal@gmail.com
+ 	* Juanpe Catalán, juanpecm@gmail.com
+	* David Carrascal, davidlcarrascal@gmail.com
 
 ## License
 

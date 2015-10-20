@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "JDAvatarProgress"
-  s.version          = "1.0.2"
+  s.version          = "1.0.3"
   s.summary          = "Easy customizable avatar image asynchronously with progress bar animated"
   s.description      = "Easy customizable avatar image asynchronously with progress bar animated. Enjoy it!"
 

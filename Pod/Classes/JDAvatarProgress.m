@@ -147,7 +147,7 @@ const float JDAvatarDefaultBorderWidth = 5.0f;
             weakSelf.downloadTask = nil;
             
             dispatch_async(dispatch_get_main_queue(), ^{
-                [weakSelf setImageWithURL:urlImage placeholder:placeholder progressColor:progressBarColor progressBarLineWidh:width completion:completion];
+                [weakSelf setImageWithURL:urlImage placeholder:placeholder progressColor:progressBarColor progressBarLineWidh:width borderWidth:borderWidth borderColor:color completion:completion];
             });
         }];
         
