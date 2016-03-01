@@ -55,12 +55,12 @@ const float JDAvatarDefaultBorderWidth = 5.0f;
 }
 
 - (NSURLSession *) urlSession {
-
+    
     if (!_urlSession) {
         
         _urlSession = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]
-                                                        delegate:self
-                                                   delegateQueue:[NSOperationQueue mainQueue]];
+                                                    delegate:self
+                                               delegateQueue:[NSOperationQueue mainQueue]];
     }
     
     return _urlSession;
@@ -74,7 +74,7 @@ const float JDAvatarDefaultBorderWidth = 5.0f;
 }
 
 - (void) setProgressBarColor:(UIColor *)progressBarColor{
-
+    
     _progressBarColor = progressBarColor;
     
     [self setNeedsLayout];
@@ -104,7 +104,7 @@ const float JDAvatarDefaultBorderWidth = 5.0f;
 }
 
 - (void) addBorderWithColor:(UIColor *)color width:(float)width{
-
+    
     if (color) {
         self.borderColor = color;
     }
@@ -135,7 +135,7 @@ const float JDAvatarDefaultBorderWidth = 5.0f;
 }
 
 - (void) setImageWithURL:(NSURL *)urlImage placeholder:(UIImage *)placeholder progressColor:(UIColor *)progressBarColor progressBarLineWidh:(float)width borderWidth:(float)borderWidth borderColor:(UIColor *)color completion:(JDAvatarCompletionBlock)completion{
-
+    
     if (self.downloadTask && self.downloadTask.state == NSURLSessionTaskStateRunning) {
         
         __weak typeof(self) weakSelf = self;
@@ -192,7 +192,7 @@ const float JDAvatarDefaultBorderWidth = 5.0f;
         __weak typeof(self) weakSelf = self;
         
         dispatch_async(dispatch_get_main_queue(), ^{
-
+            
             if(task.state != NSURLSessionTaskStateCompleted){
                 [weakSelf _dismissProgressBar];
             }
@@ -298,7 +298,7 @@ const float JDAvatarDefaultBorderWidth = 5.0f;
 }
 
 - (void) _drawBorder{
-
+    
     self.layer.borderColor = self.borderColor.CGColor;
     self.layer.borderWidth = self.borderWidth;
     
@@ -306,7 +306,7 @@ const float JDAvatarDefaultBorderWidth = 5.0f;
 }
 
 - (void) _initalizateProgressBar{
-        
+    
     if (self.spinLayer) {
         [self _dismissProgressBar];
     }
